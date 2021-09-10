@@ -1,0 +1,30 @@
+{
+  "name": "taquito-beacon-tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial to create a Tezos dapp with Taquito and the Beacon SDK",
+  "main": "index.js",
+  "homepage": "http://llgllgllg.github.io/test_beacon",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [
+    "tezos",
+    "taquito",
+    "beacon",
+    "dapp"
+  ],
+  "author": "Claude Barde",
+  "license": "MIT",
+  "dependencies": {
+    "@taquito/beacon-wallet": "^6.3.1-beta.0",
+    "@taquito/taquito": "^6.3.1-beta.0",
+    "babel-polyfill": "^6.26.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "parcel-bundler": "^1.12.4"
+  }
+}
